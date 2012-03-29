@@ -1,0 +1,6 @@
+{
+  "title": "Skip to next song on spotify",
+  "description": "Requires GUI scripting. Spotify must be running.",
+  "application": "Spotify",
+  "action": "next song"
+}

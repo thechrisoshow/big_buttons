@@ -1,0 +1,6 @@
+{
+  "title": "Play/pause video in browser",
+  "application": "Chrome",
+  "action": "play/pause",
+  "description": "Supports YouTube, Vimeo, BBC iPlayer & JW Player Versions 5.2 and below"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Puts the computer to sleep",
+  "application": "System",
+  "action": "sleep"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Play/Pause VLC",
+  "application": "VLC",
+  "action": "play/pause"
+}

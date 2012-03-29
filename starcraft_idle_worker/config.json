@@ -1,0 +1,6 @@
+{
+  "title": "Selects idle workers in StarCraft II",
+  "description": "Requires GUI scripting",
+  "application": "Starcraft",
+  "action": "select idle workers"
+}
