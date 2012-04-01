@@ -29,6 +29,6 @@ How do I make my own buttons?
 6. After you've created your button, restart the server and your new button will appear in the available buttons list.
   
   
-Chris O'Sullivan
+Chris O'Sullivan :bowtie:
 
 http://www.thechrisoshow.com
