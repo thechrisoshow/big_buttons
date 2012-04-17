@@ -1,6 +1,5 @@
 {
   "title": "Play/pause spotify",
-  "description": "Requires GUI scripting. Spotify must be running.",
   "application": "Spotify",
   "action": "play/pause"
 }
