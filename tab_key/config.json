@@ -1,5 +1,6 @@
 {
   "title": "Tab key",
   "application": "System",
-  "action": "tab"
+  "action": "tab",
+  "key_code": 48
 }

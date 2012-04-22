@@ -1,10 +1,16 @@
-set jwPlayerScript to "
+set jwPlayerScript52 to "
 var movie = document.getElementById('flvplayer'); 
 if (movie && movie.getConfig) {
   if (movie.getConfig().state != 'PLAYING')
     movie.sendEvent('PLAY', 'true')
   else
     movie.sendEvent('PLAY', 'false')
+};
+"
+
+set jwPlayerScript53 to "
+if (jwplayer != undefined) {
+  jwplayer.getPlayers()[0].play();
 };
 "
 
@@ -32,7 +38,7 @@ set vimeoScript to "
 "
 
 set iPlayer to "
-  if (embeddedMedia) {
+  if (embeddedMedia != undefined) {
     if (iplayer.models.Emp.getInstance()._isPlaying) {
       embeddedMedia.playerInstances.emp.call('pause');
     } else {
@@ -65,7 +71,10 @@ if (appIsRunning("Google Chrome")) then
       execute javascript vimeoScript
 
       -- JW Player Versions 5.2 and below
-      execute javascript jwPlayerScript
+      execute javascript jwPlayerScript52
+      
+      -- JW Player Versions 5.3
+      execute javascript jwPlayerScript53
       end tell
     end tell
   end tell

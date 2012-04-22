@@ -1,5 +1,6 @@
 {
   "title": "Arrow down",
   "application": "System",
-  "action": "arrow down"
+  "action": "arrow down",
+  "key_code": 125
 }

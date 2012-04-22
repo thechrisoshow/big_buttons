@@ -1,5 +1,6 @@
 {
   "title": "Enter key",
   "application": "System",
-  "action": "enter"
+  "action": "enter",
+  "key_code": 36
 }

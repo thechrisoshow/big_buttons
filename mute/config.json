@@ -1,5 +1,6 @@
 {
   "title": "Mute",
   "application": "System",
-  "action": "mute"
+  "action": "mute",
+  "key_code": 74
 }
