@@ -1,6 +1,5 @@
 {
   "title": "Decrease volume",
   "application": "System",
-  "action": "decrease volume",
-  "key_code": 73
+  "action": "decrease volume"
 }
