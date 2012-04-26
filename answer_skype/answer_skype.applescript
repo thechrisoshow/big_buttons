@@ -4,5 +4,7 @@ tell application "Skype"
  set status to send command "GET CALL " & callID & " STATUS" script name "Call Control"
  if last word of status is "RINGING" then
    send command "ALTER CALL " & callID & " ANSWER" script name "Call Control"
+ else
+   send command "ALTER CALL " & callID & " HANGUP" script name "Call Control"
  end if
 end tell
