@@ -23,6 +23,10 @@ How do I make my own buttons?
         description: Any extra details you may want to impart (like does the button require GUI scripting?)
         application: The name of the application
         action:      The action you're performing on the application
+        key_code:    If you only want to control a single keypress then you don't need to create an AppleScript for this. 
+                     Instead input the integer value of the key code you want.  
+                     You can find a list of key codes at 
+                     /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h 
 
 4. The icon image must be a square, it doesn't matter how big it is - the larger the image the bigger the resolution, but the slower it will take to get to the phone.  Make sure you name the icon "icon.png"
 5. The AppleScript file is just plain old AppleScript. There's a great tutorial here: http://mac.appstorm.net/how-to/applescript/the-ultimate-beginners-guide-to-applescript/
